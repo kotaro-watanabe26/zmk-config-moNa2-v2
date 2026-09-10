@@ -24,9 +24,9 @@
     combos {
         compatible = "zmk,combos";
 
-        layer4_ESC {
-            bindings = <&lt 4 ESC>;
-            key-positions = <39 38>;
+        esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <1 2>;
         };
 
         tab {
