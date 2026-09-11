@@ -10,6 +10,13 @@
 #define MOUSE 5
 #define SCROLL 6
 
+&trackball_central_listener {
+    scroller {
+        layers = <SCROLL>;
+        input-processors = <&zip_xy_to_scroll_mapper>;
+    };
+};
+
 &mt {
     flavor = "balanced";
     quick-tap-ms = <0>;
