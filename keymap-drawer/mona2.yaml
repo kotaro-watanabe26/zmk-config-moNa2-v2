@@ -346,38 +346,38 @@ layers:
   - {t: ▽, type: trans}
   japan_symbol:
   - PRINTSCREEN
-  - '&'
+  - ^
+  - '"'
   - '*'
-  - (
   - {t: ▽, type: trans}
-  - '`'
-  - '['
+  - '{'
   - ']'
+  - \
   - ;
-  - ':'
+  - ''''
   - {t: ▽, type: trans}
   - $
   - '%'
-  - ^
+  - '='
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '~'
+  - +
+  - '*'
   - (
-  - )
-  - ''''
-  - '"'
+  - '&'
+  - '@'
   - {t: ▽, type: trans}
   - '!'
-  - '@'
+  - '['
   - '#'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '|'
-  - '{'
+  - Sft+0x89
   - '}'
-  - _
-  - \
+  - '|'
+  - Sft+0x87
+  - '0x89'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
