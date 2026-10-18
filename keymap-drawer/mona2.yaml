@@ -37,13 +37,56 @@ layers:
   - LEFT WIN
   - LEFT ALT
   - TAB
-  - {t: LANGUAGE 2, h: '2'}
+  - {t: LANGUAGE 2, h: symbol}
   - {t: SPACE, h: LEFT CONTROL}
   - {t: LANGUAGE 1, h: LEFT SHIFT}
-  - {t: BACKSPACE, h: '1'}
+  - {t: BACKSPACE, h: number}
   - {t: ENTER, h: '3'}
   - \
-  '1':
+  japan_default:
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - {t: I, h: '6'}
+  - O
+  - P
+  - A
+  - S
+  - D
+  - {t: F, h: '5'}
+  - G
+  - DELETE
+  - H
+  - J
+  - K
+  - L
+  - '-'
+  - {t: Z, h: LEFT SHIFT}
+  - X
+  - C
+  - V
+  - B
+  - ;
+  - ''''
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - LEFT WIN
+  - LEFT ALT
+  - TAB
+  - {t: LANGUAGE 2, h: japan_symbol}
+  - {t: SPACE, h: LEFT CONTROL}
+  - {t: LANGUAGE 1, h: LEFT SHIFT}
+  - {t: BACKSPACE, h: japan_number}
+  - {t: ENTER, h: '3'}
+  - '0x89'
+  number:
   - {t: ▽, type: trans}
   - F7
   - F8
@@ -86,7 +129,7 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  '2':
+  symbol:
   - PRINTSCREEN
   - '&'
   - '*'
@@ -172,49 +215,6 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  japan_default:
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - {t: I, h: '6'}
-  - O
-  - P
-  - A
-  - S
-  - D
-  - {t: F, h: '5'}
-  - G
-  - DELETE
-  - H
-  - J
-  - K
-  - L
-  - '-'
-  - {t: Z, h: LEFT SHIFT}
-  - X
-  - C
-  - V
-  - B
-  - ;
-  - ':'
-  - N
-  - M
-  - ','
-  - .
-  - /
-  - LEFT WIN
-  - LEFT ALT
-  - TAB
-  - {t: LANGUAGE 2, h: japan_symbol}
-  - {t: SPACE, h: LEFT CONTROL}
-  - {t: LANGUAGE 1, h: LEFT SHIFT}
-  - {t: BACKSPACE, h: japan_number}
-  - {t: ENTER, h: '3'}
-  - \
   '5':
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -307,11 +307,11 @@ layers:
   - F8
   - F9
   - F12
-  - '*'
+  - '"'
   - '7'
   - '8'
   - '9'
-  - +
+  - ':'
   - {t: ▽, type: trans}
   - F4
   - F5
@@ -334,7 +334,7 @@ layers:
   - '1'
   - '2'
   - '3'
-  - '='
+  - _
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
